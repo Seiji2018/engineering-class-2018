@@ -1,6 +1,16 @@
 <DOCTYPE! HTML>
 <html>
-<body background-color="red">
+<head>
+<script>
+function goBack() {
+    window.history.back()
+}
+</script>
+</head>
+
+<button onclick="goBack()">Home</button>
+
+<body style="background-color:skyblue">
 <h1>Our First Project</h1>
 <p>In this engieneering class, we first learned how to</p>
 <p>composite data and utilize Microsoft's EXCEL.</p>
@@ -8,3 +18,7 @@
 <p>and coordinated with our football team to study</p>
 <p>the patterns of the other football teams to try</p>
 <p>to gain an advantage over them.</p>
+<p> <image src="http://media.ussportscamps.com/assets/programs/Contact-Football-072015-3873.jpg" style=width:400;height:250>
+</p>
+</body>
+</html>
